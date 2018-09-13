@@ -10,4 +10,4 @@ Weather and air quality widget for Warsaw created in Java, JavaFX and RxJava cre
 * http://powietrze.gios.gov.pl/
 
 ## Screenshots
-![](https://imgur.com/NgzHOVf)
+![](https://i.imgur.com/NgzHOVf.png)
