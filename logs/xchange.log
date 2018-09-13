@@ -1,0 +1,22 @@
+[INFO ] 09-13-2018 11:11:53 pl.edu.mimuw.weather.AppMain start - Starting Weather in Warsaw application...
+[INFO ] 09-13-2018 11:11:56 pl.edu.mimuw.weather.AppMain start - Application's up and running!
+[ERROR] 09-13-2018 11:11:58 pl.edu.mimuw.weather.network.StatsDataSource onError - com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $
+[INFO ] 09-13-2018 11:11:58 pl.edu.mimuw.weather.AppMain onNext - WeatherStateEvent(timestamp=2018-09-13T11:11:58.040)
+[INFO ] 09-13-2018 11:12:08 pl.edu.mimuw.weather.AppMain onNext - WeatherStateEvent(timestamp=2018-09-13T11:12:08.514)
+[ERROR] 09-13-2018 11:12:08 pl.edu.mimuw.weather.network.StatsDataSource onError - com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $
+[INFO ] 09-13-2018 11:12:09 pl.edu.mimuw.weather.AppMain onSettingsRequested - onSettingsRequested
+[INFO ] 09-13-2018 11:12:14 pl.edu.mimuw.weather.AppMain lambda$initialize$0 - Weather stats data source changed to Meteo
+[ERROR] 09-13-2018 11:12:17 pl.edu.mimuw.weather.network.StatsDataSource onError - com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $
+[INFO ] 09-13-2018 11:12:17 pl.edu.mimuw.weather.AppMain onNext - WeatherStateEvent(timestamp=2018-09-13T11:12:17.915)
+[ERROR] 09-13-2018 11:12:32 pl.edu.mimuw.weather.network.StatsDataSource onError - com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $
+[INFO ] 09-13-2018 11:12:32 pl.edu.mimuw.weather.AppMain onNext - WeatherStateEvent(timestamp=2018-09-13T11:12:32.274)
+[ERROR] 09-13-2018 11:13:06 pl.edu.mimuw.weather.network.StatsDataSource onError - com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $
+[INFO ] 09-13-2018 11:13:07 pl.edu.mimuw.weather.AppMain onNext - WeatherStateEvent(timestamp=2018-09-13T11:13:07.335)
+[ERROR] 09-13-2018 11:13:17 pl.edu.mimuw.weather.network.StatsDataSource onError - com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $
+[INFO ] 09-13-2018 11:13:17 pl.edu.mimuw.weather.AppMain onNext - WeatherStateEvent(timestamp=2018-09-13T11:13:17.325)
+[ERROR] 09-13-2018 11:14:17 pl.edu.mimuw.weather.network.StatsDataSource onError - com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $
+[INFO ] 09-13-2018 11:14:18 pl.edu.mimuw.weather.AppMain onNext - WeatherStateEvent(timestamp=2018-09-13T11:14:18.023)
+[ERROR] 09-13-2018 11:15:17 pl.edu.mimuw.weather.network.StatsDataSource onError - com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $
+[INFO ] 09-13-2018 11:15:17 pl.edu.mimuw.weather.AppMain onNext - WeatherStateEvent(timestamp=2018-09-13T11:15:17.485)
+[ERROR] 09-13-2018 11:16:17 pl.edu.mimuw.weather.network.StatsDataSource onError - com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 12 path $
+[INFO ] 09-13-2018 11:16:17 pl.edu.mimuw.weather.AppMain onNext - WeatherStateEvent(timestamp=2018-09-13T11:16:17.456)

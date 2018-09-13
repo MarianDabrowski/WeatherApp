@@ -1,0 +1,26 @@
+[INFO ] 12-29-2017 18:02:59 pl.edu.mimuw.weather.AppMain start - Starting Weather in Warsaw application...
+[INFO ] 12-29-2017 18:03:01 pl.edu.mimuw.weather.AppMain start - Application's up and running!
+[INFO ] 12-29-2017 18:03:04 pl.edu.mimuw.weather.AppMain onNext - WeatherStateEvent(timestamp=2017-12-29T18:03:04.660)
+[INFO ] 12-29-2017 18:03:07 pl.edu.mimuw.weather.AppMain onNext - PM2.5 : 41.36912
+PM10 : 44.28188
+
+[INFO ] 12-29-2017 18:03:31 pl.edu.mimuw.weather.AppMain onNext - WeatherStateEvent(timestamp=2017-12-29T18:03:31.485)
+[INFO ] 12-29-2017 18:03:34 pl.edu.mimuw.weather.AppMain onNext - WeatherStateEvent(timestamp=2017-12-29T18:03:34.299)
+[INFO ] 12-29-2017 18:03:35 pl.edu.mimuw.weather.AppMain onNext - PM2.5 : 41.36912
+PM10 : 44.28188
+
+[INFO ] 12-29-2017 18:03:36 pl.edu.mimuw.weather.AppMain onSettingsRequested - onSettingsRequested
+[INFO ] 12-29-2017 18:03:40 pl.edu.mimuw.weather.AppMain lambda$initialize$0 - Weather stats data source changed to Meteo
+[INFO ] 12-29-2017 18:03:44 pl.edu.mimuw.weather.AppMain onNext - WeatherStateEvent(timestamp=2017-12-29T18:03:44.397)
+[INFO ] 12-29-2017 18:03:48 pl.edu.mimuw.weather.AppMain onNext - PM2.5 : 41.36912
+PM10 : 44.28188
+
+[INFO ] 12-29-2017 18:03:50 pl.edu.mimuw.weather.AppMain onSettingsRequested - onSettingsRequested
+[INFO ] 12-29-2017 18:03:53 pl.edu.mimuw.weather.AppMain lambda$initialize$0 - Weather stats data source changed to OpenWeather
+[INFO ] 12-29-2017 18:03:56 pl.edu.mimuw.weather.AppMain onNext - WeatherStateEvent(timestamp=2017-12-29T18:03:56.950)
+[INFO ] 12-29-2017 18:04:00 pl.edu.mimuw.weather.AppMain onNext - PM2.5 : 41.36912
+PM10 : 44.28188
+
+[INFO ] 12-29-2017 18:04:18 pl.edu.mimuw.weather.AppMain onClose - onClose
+[INFO ] 12-29-2017 18:04:24 pl.edu.mimuw.weather.AppMain onClose - onClose
+[INFO ] 12-29-2017 18:04:28 pl.edu.mimuw.weather.AppMain lambda$initialize$0 - Exitting

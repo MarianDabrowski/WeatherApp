@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import pl.edu.mimuw.weather.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+<?import org.kordamp.ikonli.javafx.*?>
+<StackPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.112-ea"
+           fx:controller="pl.edu.mimuw.weather.controller.WeatherAppController"
+           id="main" stylesheets="@../css/weather.css" styleClass="body1">
+
+    <BorderPane>
+        <center>
+            <GridPane id="ratesGrid">
+                <columnConstraints>
+                    <ColumnConstraints percentWidth="25" />
+                    <ColumnConstraints percentWidth="25" />
+                    <ColumnConstraints percentWidth="25" />
+                    <ColumnConstraints percentWidth="25" />
+                </columnConstraints>
+
+                <rowConstraints>
+                    <RowConstraints percentHeight="50" />
+                    <RowConstraints percentHeight="50" />
+                </rowConstraints>
+                <WeatherPane GridPane.rowIndex="0" GridPane.columnIndex="0">
+                    <image>
+                        <FontIcon styleClass="weather-icon" iconLiteral="wi-thermometer" />
+                    </image>
+                    <values>
+                        <WeatherValueControl fx:id="temperatureControl"
+                                             format="0.0"
+                                             source="$controller.temperature"
+                                             title="air temperature value"
+                                             suffix="°C"/>
+                    </values>
+                </WeatherPane>
+
+                <WeatherPane GridPane.rowIndex="1" GridPane.columnIndex="0">
+                    <image>
+                        <FontIcon styleClass="weather-icon" iconLiteral="wi-barometer" />
+                    </image>
+                    <values>
+                        <WeatherValueControl fx:id="pressureControl"
+                                             source="$controller.pressure"
+                                             format="0.0"
+                                             title="air pressure value"
+                                             suffix = "hPa"/>
+                    </values>
+                </WeatherPane>
+
+                <WeatherPane GridPane.rowIndex="0" GridPane.columnIndex="1">
+                    <image>
+                        <FontIcon styleClass="weather-icon" iconLiteral="wi-humidity" />
+                    </image>
+                    <values>
+                        <WeatherValueControl fx:id="humidityControl"
+                                             source="$controller.humidity"
+                                             title="air humidity value"
+                                             format = "0"
+                                             suffix="\%" />
+                    </values>
+                </WeatherPane>
+
+                <WeatherPane GridPane.rowIndex="1" GridPane.columnIndex="1">
+                    <image>
+                        <FontIcon styleClass="weather-icon" iconLiteral="wi-cloud" />
+                    </image>
+                    <values>
+                        <WeatherValueControl fx:id="cloudinessControl"
+                                             source="$controller.cloudiness"
+                                             format="0"
+                                             title="cloudiness percentage"
+                                             suffix = "\%"/>
+                    </values>
+                </WeatherPane>
+
+                <WeatherPane GridPane.rowIndex="0" GridPane.columnIndex="2">
+                    <image>
+                        <FontIcon styleClass="weather-icon" iconLiteral="wi-strong-wind" />
+                    </image>
+                    <values>
+                        <WeatherValueControl fx:id="windSpeedControl"
+                                             source="$controller.windSpeed"
+                                             format="0.0"
+                                             title="wind speed"
+                                             suffix = "m/s"/>
+                    </values>
+                </WeatherPane>
+
+                <WeatherPane GridPane.rowIndex="1" GridPane.columnIndex="2">
+                    <image>
+                        <FontIcon styleClass="weather-icon" iconLiteral="wi-wind-direction" />
+                    </image>
+                    <values>
+                        <WeatherValueControl fx:id="windDegControl"
+                                             source="$controller.windDeg"
+                                             title="wind speed"/>
+                    </values>
+                </WeatherPane>
+
+                <WeatherPane GridPane.rowIndex="1" GridPane.columnIndex="3">
+                    <image>
+                        <Text styleClass="weather-text" text="PM2.5:"/>
+                    </image>
+                    <values>
+                        <WeatherValueControl fx:id="PM25Control"
+                                             source="$controller.PM25"
+                                             format="0.0"
+                                             title="PM25 value"
+                                             suffix="µg/m^3"/>
+                    </values>
+                </WeatherPane>
+
+                <WeatherPane GridPane.rowIndex="0" GridPane.columnIndex="3">
+                   <image>
+                       <Text styleClass="weather-text" text="PM10:"/>
+                   </image>
+                    <values>
+                        <WeatherValueControl fx:id="PM10Control"
+                                             source="$controller.PM10"
+                                             format="0.0"
+                                             title="PM10 value"
+                                             suffix="µg/m^3"/>
+                    </values>
+                </WeatherPane>
+
+            </GridPane>
+        </center>
+    <bottom>
+        <HBox id="statusContainer">
+            <JFXButton fx:id="settingsButton">
+                <graphic>
+                    <FontIcon fx:id="wrenchIcon" iconLiteral="fa-wrench" />
+                </graphic>
+            </JFXButton>
+            <JFXButton fx:id="refreshButton">
+                <graphic>
+                    <FontIcon fx:id="refreshIcon"
+                              iconLiteral="wi-refresh" />
+                </graphic>
+            </JFXButton>
+            <Region HBox.hgrow="ALWAYS" />
+            <FontIcon fx:id="errorIcon" iconLiteral="fa-exclamation-triangle" />
+            <SpinningFontIcon fx:id="workingIcon" iconLiteral="fa-cog" />
+        </HBox>
+    </bottom>
+    </BorderPane>
+</StackPane>

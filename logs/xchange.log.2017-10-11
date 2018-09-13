@@ -1,0 +1,9 @@
+[INFO ] 10-11-2017 22:12:48 pl.edu.mimuw.weather.AppMain start - Starting Weather in Warsaw application...
+[INFO ] 10-11-2017 22:12:50 pl.edu.mimuw.weather.AppMain start - Application's up and running!
+[INFO ] 10-11-2017 22:12:57 pl.edu.mimuw.weather.AppMain onNext - WeatherStateEvent(timestamp=2017-10-11T22:12:57.576)
+[INFO ] 10-11-2017 22:13:01 pl.edu.mimuw.weather.AppMain onNext - PM2.5 : 36.38924
+PM10 : 38.4668
+
+[INFO ] 10-11-2017 22:13:02 pl.edu.mimuw.weather.AppMain onNext - WeatherStateEvent(timestamp=2017-10-11T22:13:02.436)
+[INFO ] 10-11-2017 22:13:03 pl.edu.mimuw.weather.AppMain onClose - onClose
+[INFO ] 10-11-2017 22:13:06 pl.edu.mimuw.weather.AppMain lambda$initialize$0 - Exitting
